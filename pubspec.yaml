@@ -1,0 +1,30 @@
+name: project_inferno
+description: flutter project using riverpod.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hooks: ">=0.16.0-nullsafety.0 <2.0.0"
+  hooks_riverpod:
+  uuid: ^3.0.4
+
+dev_dependencies:
+  build_runner: ^1.9.0
+  flutter_test:
+    sdk: flutter
+  # mockito: ^5.0.5
+
+dependency_overrides:
+ # flutter_riverpod:
+    
+ # hooks_riverpod:
+ # riverpod:
